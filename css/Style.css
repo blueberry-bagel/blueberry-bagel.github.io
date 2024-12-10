@@ -1,0 +1,509 @@
+@import url('https://fonts.cdnfonts.com/css/ocr-a-std');/*space font*/
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");/*text font*/
+
+
+
+/***********************general*********************/
+
+
+
+body {
+
+   background-color: whitesmoke;
+   height: 100%;
+
+}
+
+/*  .bg-image {
+
+   margin: 0;
+   background-image: url("../images/pexels-photo-4603876.jpeg");
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 2500px;
+   background-size: 50% 
+
+} */
+
+
+
+
+/***********************slide 1*********************/
+
+
+.stack1{
+  width: 100%;
+  height: 850px;
+  outline: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  text-align: center;
+  
+
+}
+
+.title{
+
+  position: absolute;
+  top: 6%;
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+
+
+
+.S1{ 
+  transform: translate(20px, 85px) rotate(-30deg);
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  /*top: 30%;
+  right: 83%;
+  position: absolute;*/
+
+  text-align: left;
+  display: inline-block;
+}
+
+.E1{ 
+  transform: translate(13px, 60px) rotate(-25deg);
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  /*top: 27%;
+  right: 79%;
+  position: absolute;*/
+
+  text-align: left;
+  display: inline-block;
+}
+
+.A1{ 
+  transform: translate(6px, 35px) rotate(-20deg);
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  /*top: 24%;
+  right: 74%;
+  position: absolute;*/
+
+  text-align: left;
+  display: inline-block;
+}
+
+.space1{
+  transform: translate(3px, 23px) rotate(-15deg);
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  /*top: 24%;
+  right: 74%;
+  position: absolute;*/
+
+  text-align: left;
+  display: inline-block;
+
+}
+
+.S2{ 
+  transform: translate(2px, 14px) rotate(-10deg);
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  /*top: 20%;
+  right: 67%;
+  position: absolute;*/
+
+  text-align: left;
+  display: inline-block;
+}
+
+.L1{ 
+  transform: translate(1px, 8px) rotate(-5deg);
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  /*top: 17%;
+  right: 64%;
+  position: absolute;*/
+
+  text-align: left;
+  display: inline-block;
+}
+
+.U1{ 
+  transform: translate(0px, 5px) rotate(0deg);
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  /*top: 16%;
+  right: 59%;
+  position: absolute;*/
+
+  text-align: left;
+  display: inline-block;
+}
+
+.G1{ 
+  transform: translate(-1px, 8px) rotate(5deg);
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  /*top: 8%;
+  right: 90%;
+  position: absolute;*/
+
+  text-align: left;
+  display: inline-block; 
+}
+
+.space2{
+  transform: translate(-2px, 14px) rotate(10deg);
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  /*top: 8%;
+  right: 90%;
+  position: absolute;*/
+
+  text-align: left;
+  display: inline-block; 
+}
+
+.S3{ 
+  transform: translate(-3px, 25px) rotate(15deg);
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  /*top: 8%;
+  right: 90%;
+  position: absolute;*/
+
+  text-align: left;
+  display: inline-block; 
+}
+
+.U2{ 
+  transform: translate(-6px, 40px) rotate(20deg);
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  /*top: 8%;
+  right: 90%;
+  position: absolute;*/
+
+  text-align: left;
+  display: inline-block; 
+}
+
+.R1{ 
+  transform: translate(-14px, 60px) rotate(25deg);
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  /*top: 8%;
+  right: 90%;
+  position: absolute;*/
+
+  text-align: left;
+  display: inline-block; 
+}
+
+.F1{ 
+  transform: translate(-20px, 85px) rotate(30deg);
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  /*top: 8%;
+  right: 90%;
+  position: absolute;*/
+
+  text-align: left;
+  display: inline-block; 
+}
+
+
+
+
+.description{
+
+  font-size: 2.3rem;
+  font-family: 'Lora', serif;
+  position: absolute;
+  top: 27%;
+  padding: 5px;
+  margin: 5px;
+  z-index: 100;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+
+  display: inline-block;
+  text-align: left;
+
+
+}
+
+.image-box1{
+  position: absolute;
+  top: 35%;
+  right: center;
+  width: 50%;
+  height: 450px;
+  padding: 5px;
+  margin: 5px;
+  z-index: 50;
+
+  outline: 2px solid black;
+}
+
+
+
+
+/***********************slide 2*********************/
+
+
+
+.stack2{
+
+  width: 100%;
+  height: 850px;
+  outline: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  overflow: scroll;
+
+  /* remove scroll bar internet exp 10+ & firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  
+}
+
+
+
+.image-wheel {
+  padding: 4px;
+  margin-left: 1rem;
+
+  width: 50%;
+  height: 400px;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+
+  display: flex;
+
+  outline: 2px solid black;
+  
+
+}
+
+.stack2::-webkit-scrollbar { /*remove scroll wheel chrome & safari */
+  display: none;
+}
+
+.counter {
+
+  position: fixed;
+}
+
+.stack2_image {
+  height: 100%;
+  width: auto;
+
+  
+}
+
+
+
+/***********************slide 3*********************/
+
+
+
+
+.stack3{
+
+  width: 100%;
+  height: 850px;
+  outline: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  text-align: center;
+  
+}
+
+ul.productBenefits{
+  display: inline-block;
+  text-align: left;
+  align-content: center;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  font-size: 25px;
+}
+
+ul li:before{
+  content: '';
+  margin: 0 1em;
+}
+
+.tree_image {
+
+  width: 14em;
+  height: 14em;
+  display: flex;
+  margin: 10px;
+  position: relative;
+  object-fit: contain;
+
+}
+
+.flower_image {
+
+  width: 14em;
+  height: 14em;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  object-fit: contain;
+
+}
+
+.flag_image {
+
+  width: 14em;
+  height: 14em;
+  display: flex;
+  margin: 10px;
+  position: relative;
+  object-fit: contain;
+
+}
+
+.left_box {
+  /* outline: 2px solid black; */
+  width: 30%;
+  height: 99%;
+  margin: 3px;
+  align-content: center;
+  float: left;
+
+}
+
+.right_box {
+  /* outline: 2px solid black; */
+  width: 65%;
+  height: 99%;
+  margin: 3px;
+  align-content: center;
+  float: right;
+
+
+}
+
+
+
+
+/***********************slide 4*********************/
+
+
+
+.stack4{
+
+  width: 100%;
+  height: 400px; /* 500 */
+  outline: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  text-align: center;
+  
+}
+
+.information{
+
+  font-size: 35px;
+  font-family: 'Lora', serif;
+  top: 90%;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+
+.amazon{
+
+  font-size: 35px;
+  font-family: 'Lora', serif;
+  top: 18%;
+  padding: 5px;
+  margin: 5px;
+
+
+}
