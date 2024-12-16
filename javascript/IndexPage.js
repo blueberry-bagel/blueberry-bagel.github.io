@@ -44,12 +44,15 @@ $(document).scroll(function(e){
 
 
 
-var imageArray = [
-    'https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Homer_Simpson_2006.png/220px-Homer_Simpson_2006.png',
-    'https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Marge_Simpson.png/220px-Marge_Simpson.png',
-    'https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png'
-   ];
+// var imageArray = [
+//     'https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Homer_Simpson_2006.png/220px-Homer_Simpson_2006.png',
+//     'https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Marge_Simpson.png/220px-Marge_Simpson.png',
+//     'https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png'
+//    ];
 
+var imageArray = [
+    'https://seaslug.love/images/item_whitebkgr1.png',
+];
 
 let currentIndex = 0;
 const imageElement = document.getElementById('stack2_image')

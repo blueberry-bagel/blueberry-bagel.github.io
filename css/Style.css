@@ -297,15 +297,27 @@ body {
 
 .image-box1{
   position: absolute;
+  display: flex;
   top: 35%;
   right: center;
-  width: 50%;
+  width: 25%;
   height: 450px;
   padding: 5px;
   margin: 5px;
   z-index: 50;
 
   outline: 2px solid black;
+  overflow: hidden;
+
+  align-self: center;
+  justify-content: center;
+}
+
+.image_box1 img{
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
 }
 
 
